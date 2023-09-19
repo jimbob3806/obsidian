@@ -1,0 +1,4 @@
+/* https://docs.obsidian.md/Reference/CSS+variables/Editor/Horizontal+rule */
+.theme-light {
+    --hr-color: var(--clr-neutral-200)
+}

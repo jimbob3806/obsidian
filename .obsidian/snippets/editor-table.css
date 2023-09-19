@@ -1,0 +1,9 @@
+/* https://docs.obsidian.md/Reference/CSS+variables/Editor/Table */
+.theme-light {
+    --table-row-background-hover: var(--clr-primary-200);
+    --table-row-alt-background: var(--clr-neutral-200);
+    --table-column-alt-background: none;
+
+    --table-column-first-border-width: 0;
+    --table-column-last-border-width: 0;
+}

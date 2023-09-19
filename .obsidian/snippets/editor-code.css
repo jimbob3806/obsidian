@@ -1,0 +1,21 @@
+/* Additional colors based on https://github.com/morhetz/gruvbox */
+:root {
+    --clr-gruvbox-bg: #282828;
+    --clr-gruvbox-fg: #ebdbb2;
+    --clr-gruvbox-gray: #a89984;
+}
+
+/* https://docs.obsidian.md/Reference/CSS+variables/Editor/Code */
+.theme-light {
+    --code-background: var(--clr-gruvbox-bg);
+    --code-normal: var(--color-blue);
+    --code-comment: var(--clr-gruvbox-gray);
+    --code-keyword: var(--color-red);
+    --code-operator: var(--color-cyan);
+    --code-property: var(--color-orange);
+}
+
+/* Reset cursor to be light against dark background. */
+.HyperMD-codeblock {
+    caret-color: var(--clr-gruvbox-fg);
+}

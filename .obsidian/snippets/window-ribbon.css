@@ -1,0 +1,32 @@
+/* https://docs.obsidian.md/Reference/CSS+variables/Window/Ribbon */
+.theme-light {
+    --ribbon-background: var(--clr-primary-800);
+    --ribbon-background-collapsed: var(--clr-neutral-200);
+}
+
+/* Sidebar toggle button colors reversed when hovered. */
+.sidebar-toggle-button div {
+    color: var(--clr-neutral-700) !important;
+}
+.sidebar-toggle-button:hover div {
+    background-color: var(--clr-primary-800);
+    color: var(--clr-neutral-300) !important;
+}
+
+/* Sidebar ribbon button colors reversed when hovered. */
+.workspace-ribbon div {
+    color: var(--clr-neutral-300);
+}
+.workspace-ribbon div.side-dock-ribbon-action:hover {
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-700);
+}
+
+/* Reverse colors for collapsed ribbon. */
+.workspace-ribbon.is-collapsed div {
+    color: var(--clr-neutral-700)
+}
+.workspace-ribbon.is-collapsed div.side-dock-ribbon-action:hover {
+    background-color: var(--clr-primary-800);
+    color: var(--clr-neutral-300);
+}

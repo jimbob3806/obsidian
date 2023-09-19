@@ -1,0 +1,4 @@
+/* https://docs.obsidian.md/Reference/CSS+variables/Window/Divider */
+.theme-light {
+    --divider-color-hover: var(--clr-primary-500);
+}

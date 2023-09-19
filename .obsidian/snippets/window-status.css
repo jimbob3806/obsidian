@@ -1,0 +1,10 @@
+/* https://docs.obsidian.md/Reference/CSS+variables/Window/Status+bar */
+.theme-light {
+    --status-bar-background: var(--clr-primary-800);
+    --status-bar-text-color: var(--clr-neutral-300);
+}
+
+/* Override clickable hover text color. */
+.status-bar div.mod-clickable:hover {
+    color: var(--clr-neutral-400) !important;
+}

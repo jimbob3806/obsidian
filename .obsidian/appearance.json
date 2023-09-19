@@ -1,0 +1,26 @@
+{
+    "accentColor": "#779966",
+    "enabledCssSnippets": [
+        "remove-ligatures",
+        "remove-footnotes-rule",
+        "colors",
+        "styles",
+        "window-ribbon",
+        "components-navigation",
+        "components-tabs",
+        "editor-blockquote",
+        "editor-callout",
+        "editor-code",
+        "editor-headings",
+        "editor-hr",
+        "editor-link",
+        "window-divider",
+        "editor-table",
+        "window-status",
+        "editor-tag"
+    ],
+    "textFontFamily": "Monoid",
+    "monospaceFontFamily": "Monoid",
+    "interfaceFontFamily": "Monoid",
+    "theme": "moonstone"
+}

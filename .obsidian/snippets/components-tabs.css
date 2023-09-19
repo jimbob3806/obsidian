@@ -1,0 +1,9 @@
+/* https://docs.obsidian.md/Reference/CSS+variables/Components/Tabs */
+.theme-light {
+    --tab-text-color: var(--clr-neutral-500);
+    --tab-text-color-active: var(--clr-neutral-800);
+    --tab-text-color-focused: var(--clr-neutral-500);
+    --tab-text-color-focused-active: var(--clr-neutral-800);
+    --tab-text-color-focused-highlighted: var(--clr-neutral-800);
+    --tab-text-color-focused-active-current: var(--clr-neutral-800);
+}

@@ -1,0 +1,5 @@
+/* https://docs.obsidian.md/Reference/CSS+variables/Editor/Tag */
+.theme-light {
+    --tag-color: var(--clr-neutral-150);
+    --tag-background: var(--clr-primary-500);
+}

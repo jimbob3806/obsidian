@@ -1,0 +1,4 @@
+/* CSS variables for blockquote. */
+.theme-light {
+    --blockquote-border-color: var(--clr-primary-500);
+}
